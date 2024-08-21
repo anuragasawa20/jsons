@@ -1,0 +1,31 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "NationalID": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:23e75bc5-3f70-40c3-9745-040c0c4a0a6f#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "Name": {
+                        "@id": "polygon-vocab:Name",
+                        "@type": "xsd:string"
+                    },
+                    "ID_number": {
+                        "@id": "polygon-vocab:ID_number",
+                        "@type": "xsd:double"
+                    },
+                    "DOB": {
+                        "@id": "polygon-vocab:DOB",
+                        "@type": "xsd:integer"
+                    }
+                },
+                "@id": "urn:uuid:f0917125-10d9-4f4c-a960-640d5870ede9"
+            }
+        }
+    ]
+}
